@@ -9,10 +9,11 @@ public class inventarisierung {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String eingabe;
+		int eingabe = 99;
+		boolean benutzerdaten = false;
 
 		
-		String host = "192.168.8.100";
+/*		String host = "192.168.8.100";
 		String port = "8081";
 		String database = "inventar";
 		String user = "TestProgramm";
@@ -42,10 +43,38 @@ public class inventarisierung {
 		werkzeug.setKaufdatum("2017.10.19");
 		werkzeug.setLieferant("Granzow");
 		werkzeug.setTyp("Schraubendreher");
-				
-		eingabe  = Ausgabe.ausgabe();
+*/
 		
-		MySQLConnection.printNameList();
+		while(eingabe != 0) {
+			eingabe  = Ausgabe.menue();
+			
+			switch(eingabe) {
+			// 1 - Auflistung Mitarbeiter
+			case 1:
+				break;
+			// 2 - Auflistung Werkzeug
+			case 2:
+				break;
+			// 3 - Auflistung Maschinen
+			case 3: 
+				MySQLConnection.printNameList();
+				break;
+			// 4 - MySQL Benutzerdaten eingeben
+			case 4:
+				Ausgabe.mysqlData();
+				break;
+			// 5 - MySQL Verbinden
+			case 5:
+				break;
+			}
+			
+			
+		}
+		
+
+		System.exit(1);
+		
+//		MySQLConnection.printNameList();
 		
 		
 
