@@ -11,11 +11,11 @@ public class Ausgabe {
 
 		System.out.println("Willkommen im Inventarisierungsprogramm.");
 		System.out.println("Wähle einen Menüpunkt:");
-		System.out.println("1 - Auflistung Mitarbeiter");
-		System.out.println("2 - Auflistung Werkzeug");
+//		System.out.println("1 - Auflistung Mitarbeiter");
+//		System.out.println("2 - Auflistung Werkzeug");
 		System.out.println("3 - Auflistung Maschinen");
 		System.out.println("4 - MySQL Benutzerdaten eingeben");
-		System.out.println("5 - MySQL Verbinden");
+//		System.out.println("5 - MySQL Verbinden");
 		System.out.println("0 - Beenden");
 		
 		eingabe = leser.nextInt();

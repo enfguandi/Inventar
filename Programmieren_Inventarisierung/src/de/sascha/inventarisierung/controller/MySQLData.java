@@ -17,7 +17,7 @@ public class MySQLData {
 	}
 	
 	public static String getDBHost() {
-		System.out.println("getDBHost!");
+		System.out.println("getDBHost - " + dbHost);
 		return dbHost;
 	}
 	
@@ -26,7 +26,7 @@ public class MySQLData {
 	}
 	
 	public static String getDBPort() {
-		System.out.println("getDBPort");
+		System.out.println("getDBPort - " + dbPort);
 		return dbPort;
 	}
 	
@@ -35,7 +35,7 @@ public class MySQLData {
 	}
 	
 	public static String getDBName() {
-		System.out.println("getDBName");
+		System.out.println("getDBName - " + dbName);
 		return dbName;
 	}
 	
@@ -44,7 +44,7 @@ public class MySQLData {
 	}
 	
 	public static String getDBUser() {
-		System.out.println("getDBUser");
+		System.out.println("getDBUser - " + dbUser);
 		return dbUser;
 	}
 	
@@ -53,7 +53,7 @@ public class MySQLData {
 	}
 	
 	public static String getDBPass() {
-		System.out.println("getDBPass");
+		System.out.println("getDBPass - " + dbPass);
 		return dbPass;
 	}
 	
